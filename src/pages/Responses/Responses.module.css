@@ -1,0 +1,8 @@
+.cardAvatarGrup {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.cardAvatarGrup div {
+  flex: 1;
+}

@@ -1,0 +1,62 @@
+.form {
+  max-width: 800px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 40px auto;
+}
+.cardFrom {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+.cardFrom h1 {
+  margin-bottom: 0.7em;
+}
+.containerAvatar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.containerAvatar label {
+  font-weight: bold;
+  margin: 0.3em 0;
+}
+.containerSelect {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+}
+.blockSelect {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.blockSelect select {
+  height: 30px;
+}
+.inputRadio {
+  display: block;
+  margin: 8px 0;
+}
+.inputRadio input {
+  margin-right: 5px;
+}
+.btn {
+  margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+  .containerSelect {
+    grid-template-columns: minmax(200px, auto);
+  }
+  .containerSelect select {
+    width: 100%;
+  }
+  .form {
+    padding: 0;
+  }
+}

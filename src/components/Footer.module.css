@@ -1,0 +1,34 @@
+.footer {
+  background-color: #edf3f6;
+  padding: 3em 10vw;
+}
+.structureFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.structureFooter div {
+  flex: 1;
+}
+.structureFooter li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.structureFooter img {
+  width: 25px;
+  margin-right: 5px;
+}
+.Copyright {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+@media (max-width: 1020px) {
+  .structureFooter {
+    flex-direction: column;
+  }
+  .structureFooter div {
+    margin: 10px 0;
+  }
+}

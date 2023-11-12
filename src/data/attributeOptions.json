@@ -1,0 +1,254 @@
+{
+  "avatarStyle": {
+    "options": ["Circle", "Transparent"],
+    "translations": {
+      "Circle": "Círculo",
+      "Transparent": "Transparente"
+    }
+  },
+  "topType": {
+    "options": [
+      "NoHair",
+      "LongHairBigHair",
+      "LongHairBob",
+      "LongHairBun",
+      "LongHairCurly",
+      "LongHairCurvy",
+      "LongHairDreads",
+      "LongHairFrida",
+      "LongHairFro",
+      "LongHairFroBand",
+      "LongHairNotTooLong",
+      "LongHairMiaWallace",
+      "LongHairStraight",
+      "LongHairStraight2",
+      "LongHairStraightStrand",
+      "ShortHairDreads02",
+      "ShortHairFrizzle",
+      "ShortHairShaggyMullet",
+      "ShortHairShortCurly",
+      "ShortHairShortFlat",
+      "ShortHairShortRound",
+      "ShortHairShortWaved",
+      "ShortHairSides",
+      "ShortHairTheCaesar",
+      "ShortHairTheCaesarSidePart"
+    ],
+    "translations": {
+      "NoHair": "Sem Cabelo",
+      "LongHairBigHair": "Cabelo Comprido",
+      "LongHairBob": "Cabelo Médio",
+      "LongHairBun": "Cabelo Com Coque",
+      "LongHairCurly": "Cabelo Cacheado",
+      "LongHairCurvy": "Cabelo Comprido Ondulado",
+      "LongHairDreads": "Cabelo Comprido Dreads",
+      "LongHairFrida": "Frida Kahlo",
+      "LongHairFro": "Cabelo Comprido Afro",
+      "LongHairFroBand": "Cabelo Comprido Afro com Faixa",
+      "LongHairNotTooLong": "abelo Médio Com Franja Dividia",
+      "LongHairMiaWallace": "Cabelo Médio Com Franja",
+      "LongHairStraight": "Cabelo Comprido Liso 1",
+      "LongHairStraight2": "Cabelo Comprido Liso 2",
+      "LongHairStraightStrand": "Cabelo Comprido Liso 3",
+      "ShortHairDreads02": "Dreads 2",
+      "ShortHairFrizzle": "Cabelo Raspado nas Laterais",
+      "ShortHairShaggyMullet": "Mullets Bagunçados",
+      "ShortHairShortCurly": "Cabelo Cacheado Com Topete",
+      "ShortHairShortFlat": "Cabelo Liso Curto Com Toptete",
+      "ShortHairShortRound": "Cabelo Liso Curto ",
+      "ShortHairShortWaved": "Cabelo Ondulado Curto",
+      "ShortHairSides": "Cabelo Calvo - Apenas Laterais",
+      "ShortHairTheCaesar": "Cabelo Curto",
+      "ShortHairTheCaesarSidePart": "Cabelo Curto Com Listra"
+    }
+  },
+  "accessoriesType": {
+    "options": ["Blank", "Kurt", "Prescription01", "Prescription02", "Round", "Sunglasses"],
+    "translations": {
+      "Blank": "Nenhum",
+      "Kurt": "Óculos Kurt",
+      "Prescription01": "Óculos de Prescrição 01",
+      "Prescription02": "Óculos de Prescrição 02",
+      "Round": "Óculos Redondos",
+      "Sunglasses": "Óculos de Sol"
+    }
+  },
+  "hairColor": {
+    "options": ["Auburn", "Black", "Blonde", "BlondeGolden", "Brown", "BrownDark", "PastelPink", "Blue", "Platinum", "Red", "SilverGray"],
+    "translations": {
+      "Auburn": "Acaju",
+      "Black": "Preto",
+      "Blonde": "Loiro",
+      "BlondeGolden": "Loiro Dourado",
+      "Brown": "Castanho",
+      "BrownDark": "Castanho Escuro",
+      "PastelPink": "Rosa Pastel",
+      "Blue": "Azul",
+      "Platinum": "Platina",
+      "Red": "Vermelho",
+      "SilverGray": "Prateado"
+    }
+  },
+  "facialHairType": {
+    "options": ["Blank", "BeardMedium", "BeardLight", "BeardMajestic", "MoustacheFancy", "MoustacheMagnum"],
+    "translations": {
+      "Blank": "Nenhum",
+      "BeardMedium": "Barba Média",
+      "BeardLight": "Barba Leve",
+      "BeardMajestic": "Barba Majestosa",
+      "MoustacheFancy": "Bigode Chique",
+      "MoustacheMagnum": "Bigode Magnum"
+    }
+  },
+  "facialHairColor": {
+    "options": ["Auburn", "Black", "Blonde", "BlondeGolden", "Brown", "BrownDark", "PastelPink", "Blue", "Platinum", "Red"],
+    "translations": {
+      "Auburn": "Acaju",
+      "Black": "Preto",
+      "Blonde": "Loiro",
+      "BlondeGolden": "Loiro Dourado",
+      "Brown": "Castanho",
+      "BrownDark": "Castanho Escuro",
+      "PastelPink": "Rosa Pastel",
+      "Blue": "Azul",
+      "Platinum": "Platina",
+      "Red": "Vermelho"
+    }
+  },
+  "clotheType": {
+    "options": [
+      "BlazerShirt",
+      "BlazerSweater",
+      "CollarSweater",
+      "GraphicShirt",
+      "Hoodie",
+      "Overall",
+      "ShirtCrewNeck",
+      "ShirtScoopNeck",
+      "ShirtVNeck"
+    ],
+    "translations": {
+      "BlazerShirt": "Blazer com Camisa",
+      "BlazerSweater": "Blazer com Suéter",
+      "CollarSweater": "Suéter com Colarinho",
+      "GraphicShirt": "Camisa com Estampa",
+      "Hoodie": "Moletom com Capuz",
+      "Overall": "Macacão",
+      "ShirtCrewNeck": "Camiseta Gola Redonda",
+      "ShirtScoopNeck": "Camiseta Gola Scoop",
+      "ShirtVNeck": "Camiseta Gola V"
+    }
+  },
+  "clotheColor": {
+    "options": [
+      "Black",
+      "Blue01",
+      "Blue02",
+      "Blue03",
+      "Gray01",
+      "Gray02",
+      "Heather",
+      "PastelBlue",
+      "PastelGreen",
+      "PastelOrange",
+      "PastelRed",
+      "PastelYellow",
+      "Pink",
+      "Red",
+      "White"
+    ],
+    "translations": {
+      "Black": "Preto",
+      "Blue01": "Azul 01",
+      "Blue02": "Azul 02",
+      "Blue03": "Azul 03",
+      "Gray01": "Cinza 01",
+      "Gray02": "Cinza 02",
+      "Heather": "Cinza Mesclado",
+      "PastelBlue": "Azul Pastel",
+      "PastelGreen": "Verde Pastel",
+      "PastelOrange": "Laranja Pastel",
+      "PastelRed": "Vermelho Pastel",
+      "PastelYellow": "Amarelo Pastel",
+      "Pink": "Rosa",
+      "Red": "Vermelho",
+      "White": "Branco"
+    }
+  },
+  "eyeType": {
+    "options": ["Close", "Cry", "Default", "Dizzy", "EyeRoll", "Happy", "Hearts", "Side", "Squint", "Surprised", "Wink", "WinkWacky"],
+    "translations": {
+      "Close": "Fechado",
+      "Cry": "Chorando",
+      "Default": "Normal",
+      "Dizzy": "Tonto",
+      "EyeRoll": "Revirando os Olhos",
+      "Happy": "Feliz",
+      "Hearts": "Com Corações",
+      "Side": "Olhar de Lado",
+      "Squint": "Apertando os Olhos",
+      "Surprised": "Surpreso",
+      "Wink": "Piscando",
+      "WinkWacky": "Piscando Loucamente"
+    }
+  },
+  "eyebrowType": {
+    "options": [
+      "Angry",
+      "AngryNatural",
+      "Default",
+      "DefaultNatural",
+      "FlatNatural",
+      "RaisedExcited",
+      "RaisedExcitedNatural",
+      "SadConcerned",
+      "SadConcernedNatural",
+      "UnibrowNatural",
+      "UpDown",
+      "UpDownNatural"
+    ],
+    "translations": {
+      "Angry": "Zangado",
+      "AngryNatural": "Zangado Natural",
+      "Default": "Normal",
+      "DefaultNatural": "Normal Natural",
+      "FlatNatural": "Plano Natural",
+      "RaisedExcited": "Elevado e Animado",
+      "RaisedExcitedNatural": "Elevado e Animado Natural",
+      "SadConcerned": "Triste e Preocupado",
+      "SadConcernedNatural": "Triste e Preocupado Natural",
+      "UnibrowNatural": "Monocelha Natural",
+      "UpDown": "Para Cima e Para Baixo",
+      "UpDownNatural": "Para Cima e Para Baixo Natural"
+    }
+  },
+  "mouthType": {
+    "options": ["Concerned", "Default", "Disbelief", "Eating", "Grimace", "Sad", "ScreamOpen", "Serious", "Smile", "Tongue", "Twinkle", "Vomit"],
+    "translations": {
+      "Concerned": "Preocupado(a)",
+      "Default": "Padrão",
+      "Disbelief": "Descrença",
+      "Eating": "Comendo",
+      "Grimace": "Careta",
+      "Sad": "Triste",
+      "ScreamOpen": "Gritando de Boca Aberta",
+      "Serious": "Sério(a)",
+      "Smile": "Sorriso",
+      "Tongue": "Língua de Fora",
+      "Twinkle": "Brilho nos Olhos",
+      "Vomit": "Vômito"
+    }
+  },
+  "skinColor": {
+    "options": ["Tanned", "Yellow", "Pale", "Light", "Brown", "DarkBrown", "Black"],
+    "translations": {
+      "Tanned": "Bronzeado(a)",
+      "Yellow": "Amarelo(a)",
+      "Pale": "Pálido(a)",
+      "Light": "Claro(a)",
+      "Brown": "Moreno(a)",
+      "DarkBrown": "Pardo(a)",
+      "Black": "Negro(a)"
+    }
+  }
+}
