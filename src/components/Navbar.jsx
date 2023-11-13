@@ -22,6 +22,7 @@ const Navbar = () => {
       window.removeEventListener("resize", updateScreenWidth);
     };
   }, []);
+
   return (
     <nav className={styles.navbar}>
       <Link to={"/"}>
@@ -33,7 +34,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link to={"/login"} className="btn btn-margin">
-            Entrar
+            Admin
           </Link>
         </li>
       </ul>

@@ -1,8 +1,22 @@
+.generalStatistics {
+  display: flex;
+  flex-wrap: wrap;
+}
+.generalStatistics div {
+  min-width: 300px;
+  flex: 1;
+  justify-content: center;
+}
+.generalStatistics div p:nth-child(even) {
+  margin: 5px 0;
+}
 .cardAvatarGrup {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
 }
 .cardAvatarGrup div {
   flex: 1;
+}
+.cardResponses {
+  flex-direction: column;
 }

@@ -2,13 +2,12 @@
 import styles from "./Login.module.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-const About = () => {
+const Login = () => {
   const [showPassword, setShowPassword] = useState("password");
-
   const [idUser, setIdUser] = useState("");
   const [passwordUser, setPasswordUser] = useState("");
   const [error, SetErro] = useState("");
-  const navegate = useNavigate();
+  const navigate = useNavigate();
 
   const handleShowPassword = (e) => {
     const { checked } = e.target;
@@ -19,8 +18,8 @@ const About = () => {
     SetErro("");
     e.preventDefault();
 
-    if (idUser === "admin123" && passwordUser === "admin123") {
-      navegate("/responses");
+    if (idUser === "uninassau" && passwordUser === "uninassau") {
+      navigate(`/responses`);
     } else {
       SetErro("Id ou Senha errado");
     }
@@ -42,4 +41,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Login;

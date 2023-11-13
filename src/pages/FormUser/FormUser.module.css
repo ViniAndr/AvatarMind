@@ -1,5 +1,5 @@
 .form {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   padding: 0 25px;
   margin: 40px auto;
@@ -13,6 +13,7 @@
 }
 .cardFrom h1 {
   margin-bottom: 0.7em;
+  text-align: center;
 }
 .containerAvatar {
   display: flex;

@@ -64,6 +64,8 @@ const FormUser = () => {
     name: "",
     lastName: "",
     email: "",
+    age: "",
+    studyClass: "",
     input0: null,
     input1: null,
     input2: null,
@@ -110,10 +112,10 @@ const FormUser = () => {
     <div className="container">
       <form onSubmit={handleSubmit} className={style.form}>
         {/* Dados pessoais do usuário */}
-        <div className={`${style.CardAvatarForm} ${style.cardFrom}`}>
+        <div className={`${style.CardAvatarForm} ${style.cardFrom} `}>
           <h1>Dados do usuário</h1>
           <label className="input-text">
-            <span>Nome:</span>
+            <span className="title-p">Nome:</span>
             <input
               className={style.inputText}
               type="text"
@@ -125,7 +127,7 @@ const FormUser = () => {
             />
           </label>
           <label className="input-text">
-            <span>Sobrenome:</span>
+            <span className="title-p">Sobrenome:</span>
             <input
               className={style.inputText}
               type="text"
@@ -137,13 +139,37 @@ const FormUser = () => {
             />
           </label>
           <label className="input-text">
-            <span>Email:</span>
+            <span className="title-p">Email:</span>
             <input
               className={style.inputText}
               type="email"
               placeholder="Seu email?"
               name="email"
               value={opcoes.email}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label className="input-text">
+            <span className="title-p">Idade:</span>
+            <input
+              className={style.inputText}
+              type="number"
+              placeholder="Sua Idade em Anos"
+              name="age"
+              value={opcoes.age}
+              onChange={handleInputChange}
+              required
+            />
+          </label>
+          <label className="input-text">
+            <span className="title-p">Turma de estudo:</span>
+            <input
+              className={style.inputText}
+              type="text"
+              placeholder="Exemplo 1° Ano A"
+              name="studyClass"
+              value={opcoes.studyClass}
               onChange={handleInputChange}
               required
             />
@@ -179,7 +205,7 @@ const FormUser = () => {
         {/* Área de perguntas */}
         <div className={`${style.CardAvatarForm} ${style.cardFrom}`}>
           <h1>Formulario de Peruntas</h1>
-          <p className="title-input">Você tem ideia do que se trata uma identidade?</p>
+          <p className="title-p">Você tem ideia do que se trata uma identidade?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input0" checked={opcoes.input0 === true} onChange={handleInputChange} required />
             Sim
@@ -189,7 +215,7 @@ const FormUser = () => {
             Não
           </label>
 
-          <p className="title-input">Se sente satisfeito com a sua identidade neste momento?</p>
+          <p className="title-p">Se sente satisfeito com a sua identidade neste momento?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input1" checked={opcoes.input1 === true} onChange={handleInputChange} required />
             Sim
@@ -199,7 +225,7 @@ const FormUser = () => {
             Não
           </label>
 
-          <p className="title-input">Seu núcleo familiar exerce influência na construção dessa identidade (suas escolhas)?</p>
+          <p className="title-p">Seu núcleo familiar exerce influência na construção dessa identidade (suas escolhas)?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input2" checked={opcoes.input2 === true} onChange={handleInputChange} required />
             Sim
@@ -209,7 +235,7 @@ const FormUser = () => {
             Não
           </label>
 
-          <p className="title-input">Você se sente confortável com a imagem que reflete para os outros?</p>
+          <p className="title-p">Você se sente confortável com a imagem que reflete para os outros?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input3" checked={opcoes.input3 === true} onChange={handleInputChange} required />
             Sim
@@ -219,7 +245,7 @@ const FormUser = () => {
             Não
           </label>
 
-          <p className="title-input">Você se sente amado/aceito por ser quem você é, e por ter assumido essa identidade?</p>
+          <p className="title-p">Você se sente amado/aceito por ser quem você é, e por ter assumido essa identidade?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input4" checked={opcoes.input4 === true} onChange={handleInputChange} required />
             Sim
@@ -229,19 +255,19 @@ const FormUser = () => {
             Não
           </label>
 
-          <p className="title-input">Oque você sente quando acha que está ansioso?</p>
+          <p className="title-p">Oque você sente quando acha que está ansioso?</p>
           <textarea name="input5" rows="6" value={opcoes.input5} onChange={handleInputChange} placeholder="Digite aqui" required></textarea>
 
-          <p className="title-input">Em qual momento do dia você se considera mais ansioso?</p>
+          <p className="title-p">Em qual momento do dia você se considera mais ansioso?</p>
           <textarea name="input6" rows="6" value={opcoes.input6} onChange={handleInputChange} placeholder="Digite aqui" required></textarea>
 
-          <p className="title-input">As aulas, provas e assuntos costumam te causar ansiedade?</p>
+          <p className="title-p">As aulas, provas e assuntos costumam te causar ansiedade?</p>
           <textarea name="input7" rows="6" value={opcoes.input7} onChange={handleInputChange} placeholder="Digite aqui" required></textarea>
 
-          <p className="title-input">Fora da escola quais fatores despertam a sua ansiedade?</p>
+          <p className="title-p">Fora da escola quais fatores despertam a sua ansiedade?</p>
           <textarea name="input8" rows="6" value={opcoes.input8} onChange={handleInputChange} placeholder="Digite aqui" required></textarea>
 
-          <p className="title-input">Você possui dificuldades para relaxar mesmo em situações de lazer?</p>
+          <p className="title-p">Você possui dificuldades para relaxar mesmo em situações de lazer?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input9" checked={opcoes.input9 === true} onChange={handleInputChange} required />
             Sim
@@ -251,7 +277,7 @@ const FormUser = () => {
             Não
           </label>
 
-          <p className="title-input"> Você pensa em várias coisas ao mesmo tempo e se sente frustrado ao não conseguir focar em uma só?</p>
+          <p className="title-p"> Você pensa em várias coisas ao mesmo tempo e se sente frustrado ao não conseguir focar em uma só?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input10" checked={opcoes.input10 === true} onChange={handleInputChange} required />
             Sim
@@ -261,7 +287,7 @@ const FormUser = () => {
             Não
           </label>
 
-          <p className="title-input">Você já pesquisou para saber exatamente o que é a ansiedade e como trata-la?</p>
+          <p className="title-p">Você já pesquisou para saber exatamente o que é a ansiedade e como trata-la?</p>
           <label className={style.inputRadio}>
             <input type="radio" value={true} name="input11" checked={opcoes.input11 === true} onChange={handleInputChange} required />
             Sim

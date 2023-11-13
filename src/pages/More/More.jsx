@@ -2,7 +2,7 @@ import styles from "./More.module.css";
 const About = () => {
   return (
     <div className={`${styles.saberMais} container`}>
-      <h1>Familia</h1>
+      <h1 className="title-h1">Saber Mais</h1>
       <p className={styles.paragrafo}>
         O núcleo familiar é o primeiro ao qual somos inseridos, a partir do nascimento nos é ensinado que aquelas pessoas que estão ao nosso redor são
         as que mais nos amam e nos cuidam, resumidamente, em teoria, seriam o nosso porto seguro aqueles em quem podemos e devemos confiar.
@@ -28,9 +28,9 @@ const About = () => {
         <iframe
           src="https://www.youtube.com/embed/Bl_dDB3Veog?si=z_mCd9ZcSiBDOOT7"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <p className={styles.paragrafo}>

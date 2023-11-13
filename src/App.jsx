@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //COMPONENTS
 import Navbar from "./components/Navbar.jsx";
@@ -12,6 +12,7 @@ import Login from "./pages/Login/Login.jsx";
 import FormUser from "./pages/FormUser/FormUser.jsx";
 import More from "./pages/More/More.jsx";
 import Responses from "./pages/Responses/Responses.jsx";
+import ResponseForm from "./pages/ResponseForm/ResponseForm.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/form" element={<FormUser />} />
           <Route path="/more" element={<More />} />
+          <Route path="/responses/:id" element={<ResponseForm />} />
           <Route path="/responses" element={<Responses />} />
         </Routes>
         <Footer />

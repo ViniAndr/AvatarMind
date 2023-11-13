@@ -1,0 +1,22 @@
+.cardAvatarDate {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.date {
+  font-size: 1.2rem;
+}
+.date h2 {
+  margin-bottom: 10px;
+}
+.date p {
+  margin-bottom: 5px;
+}
+.cardResponseForm {
+  flex-direction: column;
+}
+.btnVoltar {
+  display: flex;
+  justify-content: end;
+}
