@@ -60,6 +60,9 @@ textarea::placeholder {
 .btn-margin {
   margin-left: 10px;
 }
+.btn-margin-top {
+  margin-top: 15px;
+}
 
 .container .error {
   color: #721c24;

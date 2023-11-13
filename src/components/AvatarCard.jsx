@@ -2,10 +2,13 @@ import styles from "./AvatarCard.module.css";
 
 import { Link } from "react-router-dom";
 
+import { useDeleteDocument } from "../hooks/useDeleteDocument";
+
 //PACOTE
 import AvatarIcon from "./AvatarIcon";
 
 const AvatarCard = ({ form }) => {
+  const { deleteDocument } = useDeleteDocument("form");
   return (
     <div className={`card ${styles.cardAvatar}`}>
       <h2>
@@ -18,6 +21,9 @@ const AvatarCard = ({ form }) => {
       <Link to={`/responses/${form.id}`} className="btn">
         Mais detalhes
       </Link>
+      <button onClick={() => deleteDocument(form.id)} className="btn btn-margin-top">
+        Deletar
+      </button>
     </div>
   );
 };
