@@ -20,7 +20,7 @@ const FormUser = () => {
     topType: "ShortHairShortRound",
     hairColor: "Black",
     accessoriesType: "Blank",
-    facialHairType: "BeardLight",
+    facialHairType: "Blank",
     facialHairColor: "Black",
     clotheType: "Hoodie",
     clotheColor: "Black",
@@ -66,6 +66,7 @@ const FormUser = () => {
     email: "",
     age: "",
     studyClass: "",
+    gender: "",
     input0: null,
     input1: null,
     input2: null,
@@ -92,11 +93,11 @@ const FormUser = () => {
     // pego o name e value do evento detro de target do input clicado
     const { name, value, type } = event.target;
     // converte de string para boolean
-    const valueBo0lean = value === "true" ? true : false;
+    const valueBoolean = value === "true" ? true : false;
     setOpcoes((prevState) => ({
       ...prevState, // manter o restante
       // verifica o tipo, se é radio e ai aplica boolean, se não em string mesmo para os textarea
-      [name]: type === "radio" ? valueBo0lean : value, // ao inves de add, ele pega um já existente e muda o valor
+      [name]: type === "radio" ? valueBoolean : value, // ao inves de add, ele pega um já existente e muda o valor
     }));
   };
 
@@ -173,6 +174,14 @@ const FormUser = () => {
               onChange={handleInputChange}
               required
             />
+          </label>
+          <label className="input-text">
+            <span className="title-p">Genero:</span>
+            <select value={opcoes.gender} name="gender" onChange={handleInputChange}>
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Outros">Outros</option>
+            </select>
           </label>
         </div>
 

@@ -7,8 +7,10 @@ const Footer = () => {
   return (
     <footer className={style.footer}>
       <div className={style.structureFooter}>
-        <div>
+        <div className={style.apoi}>
           <h2>Apoio</h2>
+          <p>Escola Estadual José Ribeiro Caminha</p>
+          <p>Uninassau</p>
         </div>
         <div>
           <h2>Contatos</h2>
@@ -19,11 +21,15 @@ const Footer = () => {
             </li>
             <li>
               <img src={ImgWhatsapp} alt="" />
-              <span>(82) 00000-0000</span>
+              <span>(82) 99363-8612</span>
             </li>
             <li>
               <img src={ImgEmail} alt="" />
               <span>davidgabriel0100@gmail.com</span>
+            </li>
+            <li>
+              <img src={ImgEmail} alt="" />
+              <span>myllenepedrosa@gmail.com</span>
             </li>
           </ul>
         </div>

@@ -29,6 +29,7 @@
   font-size: 1em;
   transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: #ffff00;
+  color: #000;
 }
 @media (max-width: 430px) {
   .formLogin {

@@ -37,6 +37,9 @@ const ResponseForm = () => {
                 <span className="title-p">Idade:</span> {response.age}
               </p>
               <p>
+                <span className="title-p">Genero:</span> {response.gender}
+              </p>
+              <p>
                 <span className="title-p">Turma de Estudo:</span> {response.studyClass}
               </p>
               <p>

@@ -9,6 +9,9 @@
 .structureFooter div {
   flex: 1;
 }
+.apoi p {
+  margin: 10px 0;
+}
 .structureFooter li {
   display: flex;
   align-items: center;
